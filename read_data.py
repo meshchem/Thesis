@@ -21,10 +21,10 @@
 import pandas as pd
 
 # Load parquet
-df = pd.read_parquet('data/tweets.parquet')
+df = pd.read_parquet('data_aug/tweets_keyword_engagement_1.parquet')
 
 # Save as CSV
 df.to_csv('tweets.csv', index=False)
 
 # Or save just a subset
-df[['row_id', 'text', 'hashtags', 'post_type', 'like_count', 'date']].to_csv('tweets_reduced.csv', index=False)
+# df[['row_id', 'keyword_category', 'text', 'hashtags', 'post_type', 'like_count', 'date']].to_csv('tweets_aug_reduced.csv', index=False)
