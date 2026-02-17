@@ -31,13 +31,18 @@ import os
 
 SAMPLE_SIZE = 500
 RANDOM_SEED = 45
-OUTPUT_PATH = "data/tweets.parquet"
+OUTPUT_PATH = "data/tweets_aug.parquet"
 
 # Dataset info
 DATASET_REPO = "deadbirds/usc-x-24-us-election-parquet"
 
 # November 2024 parts to load
 NOVEMBER_PARTS = [44]
+# November 2024 parts to load
+SEPTEMBER_PARTS = [29, 30, 31, 32, 33, 34, 35]
+OCTOBER_PARTS = [36, 37, 38]
+AUGUST_PARTS = [23, 24, 25, 26, 27, 28]
+
 
 # Specific chunks to load (contain election period data)
 CHUNKS_TO_LOAD = [112, 113]
@@ -115,7 +120,7 @@ def load_november_tweets():
     print("LOADING NOVEMBER 2024 DATA")
     print("=" * 70)
     print(f"Target parts: {NOVEMBER_PARTS}")
-    print(f"Loading specific chunks: {CHUNKS_TO_LOAD}")
+    # print(f"Loading specific chunks: {CHUNKS_TO_LOAD}")
     print(f"Date filter: {DATE_START} to {DATE_END} (election period)")
     print("=" * 70)
     print()

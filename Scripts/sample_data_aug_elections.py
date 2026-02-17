@@ -45,7 +45,7 @@ AUGUST_PARTS = [23, 24, 25, 26, 27, 28]
 # No specific chunk filtering - will load all available
 
 # Number of tweets to collect before sampling
-MAX_COLLECT = 100000
+MAX_COLLECT = 6000000
 
 LANGUAGE = "en"
 
@@ -479,7 +479,15 @@ def process_sample(tweets_list):
     print()
     
     # Perform balanced sampling
-    sampled = balanced_sample(df, SAMPLE_SIZE)
+    # Note: balanced_sample adds political_leaning column temporarily but drops it
+    # We need to preserve it, so we'll add it back
+    df_with_leaning = df.copy()
+    df_with_leaning['political_leaning'] = df_with_leaning.apply(classify_political_leaning, axis=1)
+    
+    sampled = balanced_sample(df_with_leaning, SAMPLE_SIZE)
+    
+    # Re-add political_leaning column to sampled data (it was dropped in balanced_sample)
+    sampled['political_leaning'] = sampled.apply(classify_political_leaning, axis=1)
     
     # Create sequential row IDs
     sampled = sampled.reset_index(drop=True)
@@ -496,9 +504,13 @@ def process_sample(tweets_list):
     print("=" * 70)
     print(f"Total: {len(sampled)} tweets")
     print(f"Row IDs: 1 to {len(sampled)}")
+    print(f"Date range: {sampled['date'].min()} to {sampled['date'].max()}")
     print()
     print("Post type distribution:")
     print(sampled['post_type'].value_counts())
+    print()
+    print("Political leaning distribution:")
+    print(sampled['political_leaning'].value_counts())
     print()
     print("Engagement distribution:")
     print(sampled['like_count'].describe())
@@ -529,6 +541,7 @@ def save_parquet(df):
         'row_id',
         'date',
         'post_type',
+        'political_leaning',
         'language',
         'like_count',
         'retweet_count',
@@ -604,13 +617,6 @@ def main():
     
     if len(tweets) < SAMPLE_SIZE:
         print(f"ERROR: Only {len(tweets)} tweets collected (need {SAMPLE_SIZE})")
-        print()
-        print("Possible solutions:")
-        print(f"1. Increase MAX_COLLECT (currently {MAX_COLLECT:,})")
-        print("2. Reduce SAMPLE_SIZE")
-        print("3. Expand DATE_START/DATE_END range")
-        print("4. Add more parts to AUGUST_PARTS")
-        print("5. Check internet connection")
         return
     
     # Process and sample
