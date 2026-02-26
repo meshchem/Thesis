@@ -41,3 +41,8 @@ Makefile
 # Misc
 # --------------------
 *.swp
+
+obsolete/
+.env
+code/LLM_annotations/.env/
+**/.env
