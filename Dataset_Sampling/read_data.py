@@ -1,7 +1,7 @@
-# import pandas as pd
+import pandas as pd
 
-# # Load the parquet file
-# df = pd.read_parquet('data/tweets.parquet')
+# Load parquet
+df = pd.read_parquet('data_aug/tweets_keyword_engagement_1.parquet')
 
 # # View first few rows
 # print(df.head())
@@ -17,11 +17,6 @@
 
 # # View one tweet in detail
 # print(df.iloc[0])
-
-import pandas as pd
-
-# Load parquet
-df = pd.read_parquet('data_aug/tweets_keyword_engagement_1.parquet')
 
 # Save as CSV
 df.to_csv('tweets.csv', index=False)
