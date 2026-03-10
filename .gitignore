@@ -46,6 +46,9 @@ obsolete/
 .env
 code/LLM_annotations/.env/
 **/.env
-code/LLM_annotations/Provider-Notebooks
-code/LLM_annotations/csv/ll_annotations
-code/LLM_annotations/csv/llm_annotation_analysis_all
+
+LLM_annotations/csv/metrics/ 
+LLM_annotations/csv/llm_annotation_analysis_all/
+LLM_annotations/csv/framing_csv/ 
+LLM_annotations/csv/framing_analysis/
+LLM_annotations/Provider-Notebooks/
