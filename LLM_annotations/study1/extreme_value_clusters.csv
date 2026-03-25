@@ -1,0 +1,41 @@
+annotator,variable,pct_score3,pct_score1
+Human P1,V1,0.26,0.3
+Human P1,V2,0.0,0.92
+Human P1,V3,0.0,0.98
+Human P1,V4,0.0,1.0
+Human P1,V5,0.08,0.7
+Human P1,V6,0.04,0.68
+Human P1,V7,0.04,0.88
+Human P1,V8,0.06,0.72
+Human P2,V1,0.24,0.36
+Human P2,V2,0.0,0.98
+Human P2,V3,0.0,0.98
+Human P2,V4,0.0,1.0
+Human P2,V5,0.02,0.64
+Human P2,V6,0.02,0.64
+Human P2,V7,0.06,0.64
+Human P2,V8,0.12,0.38
+GPT-4o,V1,0.08,0.5
+GPT-4o,V2,0.0,0.78
+GPT-4o,V3,0.0,0.98
+GPT-4o,V4,0.0,0.96
+GPT-4o,V5,0.02,0.58
+GPT-4o,V6,0.02,0.48
+GPT-4o,V7,0.0,0.7
+GPT-4o,V8,0.02,0.52
+Llama 3.1-8B,V1,0.28,0.54
+Llama 3.1-8B,V2,0.14,0.82
+Llama 3.1-8B,V3,0.14,0.86
+Llama 3.1-8B,V4,0.14,0.86
+Llama 3.1-8B,V5,0.04,0.92
+Llama 3.1-8B,V6,0.1,0.72
+Llama 3.1-8B,V7,0.06,0.86
+Llama 3.1-8B,V8,0.06,0.44
+Claude Sonnet,V1,0.2,0.4
+Claude Sonnet,V2,0.04,0.72
+Claude Sonnet,V3,0.0,1.0
+Claude Sonnet,V4,0.02,0.96
+Claude Sonnet,V5,0.04,0.56
+Claude Sonnet,V6,0.12,0.4
+Claude Sonnet,V7,0.2,0.58
+Claude Sonnet,V8,0.32,0.24
