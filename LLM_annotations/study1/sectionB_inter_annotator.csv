@@ -1,81 +1,81 @@
-annotator_A,annotator_B,pairing,variable,kappa_linear,spearman_rho,spearman_p,MAD
-Human P1,Human P2,Human P1 vs Human P2,V1,0.609,0.7,0.0,0.32
-Human P1,Human P2,Human P1 vs Human P2,V2,-0.033,-0.042,0.7715,0.1
-Human P1,Human P2,Human P1 vs Human P2,V3,-0.02,-0.02,0.8881,0.04
-Human P1,Human P2,Human P1 vs Human P2,V4,,,,0.0
-Human P1,Human P2,Human P1 vs Human P2,V5,0.26,0.351,0.0125,0.4
-Human P1,Human P2,Human P1 vs Human P2,V6,0.252,0.224,0.118,0.38
-Human P1,Human P2,Human P1 vs Human P2,V7,0.059,0.033,0.8215,0.46
-Human P1,Human P2,Human P1 vs Human P2,V8,0.388,0.479,0.0004,0.44
-Human P1,GPT-4o,Human P1 vs GPT-4o,V1,0.324,0.437,0.0015,0.54
-Human P1,GPT-4o,Human P1 vs GPT-4o,V2,0.018,0.021,0.883,0.26
-Human P1,GPT-4o,Human P1 vs GPT-4o,V3,-0.02,-0.02,0.8881,0.04
-Human P1,GPT-4o,Human P1 vs GPT-4o,V4,0.0,,,0.04
-Human P1,GPT-4o,Human P1 vs GPT-4o,V5,0.186,0.208,0.1464,0.46
-Human P1,GPT-4o,Human P1 vs GPT-4o,V6,0.187,0.266,0.0621,0.46
-Human P1,GPT-4o,Human P1 vs GPT-4o,V7,0.124,0.177,0.2189,0.34
-Human P1,GPT-4o,Human P1 vs GPT-4o,V8,0.297,0.342,0.0152,0.4
-Human P1,Llama 3.1-8B,Human P1 vs Llama 3.1-8B,V1,0.407,0.472,0.0005,0.54
-Human P1,Llama 3.1-8B,Human P1 vs Llama 3.1-8B,V2,-0.078,-0.138,0.3403,0.4
-Human P1,Llama 3.1-8B,Human P1 vs Llama 3.1-8B,V3,-0.019,-0.058,0.6909,0.3
-Human P1,Llama 3.1-8B,Human P1 vs Llama 3.1-8B,V4,0.0,,,0.28
-Human P1,Llama 3.1-8B,Human P1 vs Llama 3.1-8B,V5,0.147,0.163,0.2586,0.38
-Human P1,Llama 3.1-8B,Human P1 vs Llama 3.1-8B,V6,0.096,0.071,0.6259,0.5
-Human P1,Llama 3.1-8B,Human P1 vs Llama 3.1-8B,V7,-0.119,-0.148,0.304,0.36
-Human P1,Llama 3.1-8B,Human P1 vs Llama 3.1-8B,V8,0.124,0.159,0.27,0.56
-Human P1,Claude Sonnet,Human P1 vs Claude Sonnet,V1,0.461,0.569,0.0,0.44
-Human P1,Claude Sonnet,Human P1 vs Claude Sonnet,V2,-0.126,-0.183,0.2042,0.4
-Human P1,Claude Sonnet,Human P1 vs Claude Sonnet,V3,0.0,,,0.02
-Human P1,Claude Sonnet,Human P1 vs Claude Sonnet,V4,0.0,,,0.06
-Human P1,Claude Sonnet,Human P1 vs Claude Sonnet,V5,0.355,0.387,0.0055,0.38
-Human P1,Claude Sonnet,Human P1 vs Claude Sonnet,V6,0.301,0.336,0.0172,0.48
-Human P1,Claude Sonnet,Human P1 vs Claude Sonnet,V7,0.005,-0.003,0.9842,0.66
-Human P1,Claude Sonnet,Human P1 vs Claude Sonnet,V8,0.142,0.242,0.09,0.82
-Human P2,GPT-4o,Human P2 vs GPT-4o,V1,0.514,0.671,0.0,0.38
-Human P2,GPT-4o,Human P2 vs GPT-4o,V2,0.135,0.269,0.0589,0.2
-Human P2,GPT-4o,Human P2 vs GPT-4o,V3,-0.02,-0.02,0.8881,0.04
-Human P2,GPT-4o,Human P2 vs GPT-4o,V4,0.0,,,0.04
-Human P2,GPT-4o,Human P2 vs GPT-4o,V5,0.42,0.475,0.0005,0.3
-Human P2,GPT-4o,Human P2 vs GPT-4o,V6,0.339,0.406,0.0034,0.36
-Human P2,GPT-4o,Human P2 vs GPT-4o,V7,0.444,0.54,0.0001,0.28
-Human P2,GPT-4o,Human P2 vs GPT-4o,V8,0.25,0.288,0.0424,0.48
-Human P2,Llama 3.1-8B,Human P2 vs Llama 3.1-8B,V1,0.621,0.694,0.0,0.34
-Human P2,Llama 3.1-8B,Human P2 vs Llama 3.1-8B,V2,0.099,0.319,0.0241,0.3
-Human P2,Llama 3.1-8B,Human P2 vs Llama 3.1-8B,V3,0.117,0.354,0.0116,0.26
-Human P2,Llama 3.1-8B,Human P2 vs Llama 3.1-8B,V4,0.0,,,0.28
-Human P2,Llama 3.1-8B,Human P2 vs Llama 3.1-8B,V5,0.229,0.379,0.0067,0.34
-Human P2,Llama 3.1-8B,Human P2 vs Llama 3.1-8B,V6,0.134,0.178,0.215,0.48
-Human P2,Llama 3.1-8B,Human P2 vs Llama 3.1-8B,V7,0.18,0.295,0.0374,0.42
-Human P2,Llama 3.1-8B,Human P2 vs Llama 3.1-8B,V8,0.14,0.107,0.4582,0.56
-Human P2,Claude Sonnet,Human P2 vs Claude Sonnet,V1,0.51,0.628,0.0,0.4
-Human P2,Claude Sonnet,Human P2 vs Claude Sonnet,V2,0.088,0.215,0.1339,0.3
-Human P2,Claude Sonnet,Human P2 vs Claude Sonnet,V3,0.0,,,0.02
-Human P2,Claude Sonnet,Human P2 vs Claude Sonnet,V4,0.0,,,0.06
-Human P2,Claude Sonnet,Human P2 vs Claude Sonnet,V5,0.594,0.687,0.0,0.22
-Human P2,Claude Sonnet,Human P2 vs Claude Sonnet,V6,0.367,0.423,0.0022,0.42
-Human P2,Claude Sonnet,Human P2 vs Claude Sonnet,V7,0.496,0.582,0.0,0.36
-Human P2,Claude Sonnet,Human P2 vs Claude Sonnet,V8,0.226,0.295,0.0376,0.62
-GPT-4o,Llama 3.1-8B,GPT-4o vs Llama 3.1-8B,V1,0.46,0.616,0.0,0.44
-GPT-4o,Llama 3.1-8B,GPT-4o vs Llama 3.1-8B,V2,0.175,0.273,0.0551,0.38
-GPT-4o,Llama 3.1-8B,GPT-4o vs Llama 3.1-8B,V3,0.117,0.354,0.0116,0.26
-GPT-4o,Llama 3.1-8B,GPT-4o vs Llama 3.1-8B,V4,0.223,0.506,0.0002,0.24
-GPT-4o,Llama 3.1-8B,GPT-4o vs Llama 3.1-8B,V5,0.186,0.392,0.0049,0.4
-GPT-4o,Llama 3.1-8B,GPT-4o vs Llama 3.1-8B,V6,0.424,0.538,0.0001,0.36
-GPT-4o,Llama 3.1-8B,GPT-4o vs Llama 3.1-8B,V7,0.471,0.615,0.0,0.22
-GPT-4o,Llama 3.1-8B,GPT-4o vs Llama 3.1-8B,V8,0.448,0.548,0.0,0.32
-GPT-4o,Claude Sonnet,GPT-4o vs Claude Sonnet,V1,0.652,0.793,0.0,0.26
-GPT-4o,Claude Sonnet,GPT-4o vs Claude Sonnet,V2,0.28,0.316,0.0253,0.3
-GPT-4o,Claude Sonnet,GPT-4o vs Claude Sonnet,V3,0.0,,,0.02
-GPT-4o,Claude Sonnet,GPT-4o vs Claude Sonnet,V4,0.38,0.489,0.0003,0.06
-GPT-4o,Claude Sonnet,GPT-4o vs Claude Sonnet,V5,0.563,0.581,0.0,0.24
-GPT-4o,Claude Sonnet,GPT-4o vs Claude Sonnet,V6,0.525,0.687,0.0,0.3
-GPT-4o,Claude Sonnet,GPT-4o vs Claude Sonnet,V7,0.521,0.808,0.0,0.32
-GPT-4o,Claude Sonnet,GPT-4o vs Claude Sonnet,V8,0.308,0.654,0.0,0.58
-Llama 3.1-8B,Claude Sonnet,Llama 3.1-8B vs Claude Sonnet,V1,0.566,0.652,0.0,0.38
-Llama 3.1-8B,Claude Sonnet,Llama 3.1-8B vs Claude Sonnet,V2,0.47,0.621,0.0,0.28
-Llama 3.1-8B,Claude Sonnet,Llama 3.1-8B vs Claude Sonnet,V3,0.0,,,0.28
-Llama 3.1-8B,Claude Sonnet,Llama 3.1-8B vs Claude Sonnet,V4,0.319,0.506,0.0002,0.22
-Llama 3.1-8B,Claude Sonnet,Llama 3.1-8B vs Claude Sonnet,V5,0.24,0.433,0.0017,0.4
-Llama 3.1-8B,Claude Sonnet,Llama 3.1-8B vs Claude Sonnet,V6,0.432,0.644,0.0,0.42
-Llama 3.1-8B,Claude Sonnet,Llama 3.1-8B vs Claude Sonnet,V7,0.322,0.578,0.0,0.46
-Llama 3.1-8B,Claude Sonnet,Llama 3.1-8B vs Claude Sonnet,V8,0.383,0.66,0.0,0.5
+annotator_A,annotator_B,pairing,variable,spearman_rho,spearman_p,MAD
+Human P1,Human P2,Human P1 vs Human P2,V1,0.7,0.0,0.32
+Human P1,Human P2,Human P1 vs Human P2,V2,-0.042,0.7715,0.1
+Human P1,Human P2,Human P1 vs Human P2,V3,-0.02,0.8881,0.04
+Human P1,Human P2,Human P1 vs Human P2,V4,,,0.0
+Human P1,Human P2,Human P1 vs Human P2,V5,0.351,0.0125,0.4
+Human P1,Human P2,Human P1 vs Human P2,V6,0.224,0.118,0.38
+Human P1,Human P2,Human P1 vs Human P2,V7,0.033,0.8215,0.46
+Human P1,Human P2,Human P1 vs Human P2,V8,0.479,0.0004,0.44
+Human P1,GPT-4o,Human P1 vs GPT-4o,V1,0.437,0.0015,0.54
+Human P1,GPT-4o,Human P1 vs GPT-4o,V2,0.021,0.883,0.26
+Human P1,GPT-4o,Human P1 vs GPT-4o,V3,-0.02,0.8881,0.04
+Human P1,GPT-4o,Human P1 vs GPT-4o,V4,,,0.04
+Human P1,GPT-4o,Human P1 vs GPT-4o,V5,0.208,0.1464,0.46
+Human P1,GPT-4o,Human P1 vs GPT-4o,V6,0.266,0.0621,0.46
+Human P1,GPT-4o,Human P1 vs GPT-4o,V7,0.177,0.2189,0.34
+Human P1,GPT-4o,Human P1 vs GPT-4o,V8,0.342,0.0152,0.4
+Human P1,Llama 3.1-8B,Human P1 vs Llama 3.1-8B,V1,0.472,0.0005,0.54
+Human P1,Llama 3.1-8B,Human P1 vs Llama 3.1-8B,V2,-0.138,0.3403,0.4
+Human P1,Llama 3.1-8B,Human P1 vs Llama 3.1-8B,V3,-0.058,0.6909,0.3
+Human P1,Llama 3.1-8B,Human P1 vs Llama 3.1-8B,V4,,,0.28
+Human P1,Llama 3.1-8B,Human P1 vs Llama 3.1-8B,V5,0.163,0.2586,0.38
+Human P1,Llama 3.1-8B,Human P1 vs Llama 3.1-8B,V6,0.071,0.6259,0.5
+Human P1,Llama 3.1-8B,Human P1 vs Llama 3.1-8B,V7,-0.148,0.304,0.36
+Human P1,Llama 3.1-8B,Human P1 vs Llama 3.1-8B,V8,0.159,0.27,0.56
+Human P1,Claude Sonnet,Human P1 vs Claude Sonnet,V1,0.569,0.0,0.44
+Human P1,Claude Sonnet,Human P1 vs Claude Sonnet,V2,-0.183,0.2042,0.4
+Human P1,Claude Sonnet,Human P1 vs Claude Sonnet,V3,,,0.02
+Human P1,Claude Sonnet,Human P1 vs Claude Sonnet,V4,,,0.06
+Human P1,Claude Sonnet,Human P1 vs Claude Sonnet,V5,0.387,0.0055,0.38
+Human P1,Claude Sonnet,Human P1 vs Claude Sonnet,V6,0.336,0.0172,0.48
+Human P1,Claude Sonnet,Human P1 vs Claude Sonnet,V7,-0.003,0.9842,0.66
+Human P1,Claude Sonnet,Human P1 vs Claude Sonnet,V8,0.242,0.09,0.82
+Human P2,GPT-4o,Human P2 vs GPT-4o,V1,0.671,0.0,0.38
+Human P2,GPT-4o,Human P2 vs GPT-4o,V2,0.269,0.0589,0.2
+Human P2,GPT-4o,Human P2 vs GPT-4o,V3,-0.02,0.8881,0.04
+Human P2,GPT-4o,Human P2 vs GPT-4o,V4,,,0.04
+Human P2,GPT-4o,Human P2 vs GPT-4o,V5,0.475,0.0005,0.3
+Human P2,GPT-4o,Human P2 vs GPT-4o,V6,0.406,0.0034,0.36
+Human P2,GPT-4o,Human P2 vs GPT-4o,V7,0.54,0.0001,0.28
+Human P2,GPT-4o,Human P2 vs GPT-4o,V8,0.288,0.0424,0.48
+Human P2,Llama 3.1-8B,Human P2 vs Llama 3.1-8B,V1,0.694,0.0,0.34
+Human P2,Llama 3.1-8B,Human P2 vs Llama 3.1-8B,V2,0.319,0.0241,0.3
+Human P2,Llama 3.1-8B,Human P2 vs Llama 3.1-8B,V3,0.354,0.0116,0.26
+Human P2,Llama 3.1-8B,Human P2 vs Llama 3.1-8B,V4,,,0.28
+Human P2,Llama 3.1-8B,Human P2 vs Llama 3.1-8B,V5,0.379,0.0067,0.34
+Human P2,Llama 3.1-8B,Human P2 vs Llama 3.1-8B,V6,0.178,0.215,0.48
+Human P2,Llama 3.1-8B,Human P2 vs Llama 3.1-8B,V7,0.295,0.0374,0.42
+Human P2,Llama 3.1-8B,Human P2 vs Llama 3.1-8B,V8,0.107,0.4582,0.56
+Human P2,Claude Sonnet,Human P2 vs Claude Sonnet,V1,0.628,0.0,0.4
+Human P2,Claude Sonnet,Human P2 vs Claude Sonnet,V2,0.215,0.1339,0.3
+Human P2,Claude Sonnet,Human P2 vs Claude Sonnet,V3,,,0.02
+Human P2,Claude Sonnet,Human P2 vs Claude Sonnet,V4,,,0.06
+Human P2,Claude Sonnet,Human P2 vs Claude Sonnet,V5,0.687,0.0,0.22
+Human P2,Claude Sonnet,Human P2 vs Claude Sonnet,V6,0.423,0.0022,0.42
+Human P2,Claude Sonnet,Human P2 vs Claude Sonnet,V7,0.582,0.0,0.36
+Human P2,Claude Sonnet,Human P2 vs Claude Sonnet,V8,0.295,0.0376,0.62
+GPT-4o,Llama 3.1-8B,GPT-4o vs Llama 3.1-8B,V1,0.616,0.0,0.44
+GPT-4o,Llama 3.1-8B,GPT-4o vs Llama 3.1-8B,V2,0.273,0.0551,0.38
+GPT-4o,Llama 3.1-8B,GPT-4o vs Llama 3.1-8B,V3,0.354,0.0116,0.26
+GPT-4o,Llama 3.1-8B,GPT-4o vs Llama 3.1-8B,V4,0.506,0.0002,0.24
+GPT-4o,Llama 3.1-8B,GPT-4o vs Llama 3.1-8B,V5,0.392,0.0049,0.4
+GPT-4o,Llama 3.1-8B,GPT-4o vs Llama 3.1-8B,V6,0.538,0.0001,0.36
+GPT-4o,Llama 3.1-8B,GPT-4o vs Llama 3.1-8B,V7,0.615,0.0,0.22
+GPT-4o,Llama 3.1-8B,GPT-4o vs Llama 3.1-8B,V8,0.548,0.0,0.32
+GPT-4o,Claude Sonnet,GPT-4o vs Claude Sonnet,V1,0.793,0.0,0.26
+GPT-4o,Claude Sonnet,GPT-4o vs Claude Sonnet,V2,0.316,0.0253,0.3
+GPT-4o,Claude Sonnet,GPT-4o vs Claude Sonnet,V3,,,0.02
+GPT-4o,Claude Sonnet,GPT-4o vs Claude Sonnet,V4,0.489,0.0003,0.06
+GPT-4o,Claude Sonnet,GPT-4o vs Claude Sonnet,V5,0.581,0.0,0.24
+GPT-4o,Claude Sonnet,GPT-4o vs Claude Sonnet,V6,0.687,0.0,0.3
+GPT-4o,Claude Sonnet,GPT-4o vs Claude Sonnet,V7,0.808,0.0,0.32
+GPT-4o,Claude Sonnet,GPT-4o vs Claude Sonnet,V8,0.654,0.0,0.58
+Llama 3.1-8B,Claude Sonnet,Llama 3.1-8B vs Claude Sonnet,V1,0.652,0.0,0.38
+Llama 3.1-8B,Claude Sonnet,Llama 3.1-8B vs Claude Sonnet,V2,0.621,0.0,0.28
+Llama 3.1-8B,Claude Sonnet,Llama 3.1-8B vs Claude Sonnet,V3,,,0.28
+Llama 3.1-8B,Claude Sonnet,Llama 3.1-8B vs Claude Sonnet,V4,0.506,0.0002,0.22
+Llama 3.1-8B,Claude Sonnet,Llama 3.1-8B vs Claude Sonnet,V5,0.433,0.0017,0.4
+Llama 3.1-8B,Claude Sonnet,Llama 3.1-8B vs Claude Sonnet,V6,0.644,0.0,0.42
+Llama 3.1-8B,Claude Sonnet,Llama 3.1-8B vs Claude Sonnet,V7,0.578,0.0,0.46
+Llama 3.1-8B,Claude Sonnet,Llama 3.1-8B vs Claude Sonnet,V8,0.66,0.0,0.5
